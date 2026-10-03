@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "CH01",
+  "sourceOfTruth": "../../../data/ch01.puzzles.json",
+  "coordinateSpace": "normalized image content, not viewport; contain; never cover",
+  "implementationStatus": "Implemented in React web CH01 P01-P25; validated with UI playthrough and layout at 320,360,390 CSS px and desktop Chrome. Native mobile review pending.",
+  "scenes": [
+    {
+      "sceneId": "R01",
+      "viewId": "A",
+      "baseAssetId": "CH01_R01_A",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [],
+      "hotspots": [
+        {
+          "hotspotId": "binding",
+          "rect": {
+            "x": 0.4,
+            "y": 0.54,
+            "w": 0.25,
+            "h": 0.07
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_restraint"
+        },
+        {
+          "hotspotId": "chair_brace",
+          "rect": {
+            "x": 0.38,
+            "y": 0.69,
+            "w": 0.13,
+            "h": 0.08
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R01",
+      "viewId": "B",
+      "baseAssetId": "CH01_R01_B",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [
+        {
+          "whenCompleted": "P05",
+          "assetId": "CH01_R01_B_OPEN",
+          "mode": "full-frame-replacement"
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "shelf_note",
+          "rect": {
+            "x": 0.35,
+            "y": 0.675,
+            "w": 0.12,
+            "h": 0.04
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        },
+        {
+          "hotspotId": "cabinet_lock",
+          "rect": {
+            "x": 0.74,
+            "y": 0.5,
+            "w": 0.11,
+            "h": 0.07
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_cabinet_lock"
+        },
+        {
+          "hotspotId": "cabinet_inside",
+          "rect": {
+            "x": 0.71,
+            "y": 0.4,
+            "w": 0.2,
+            "h": 0.34
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R01",
+      "viewId": "C",
+      "baseAssetId": "CH01_R01_C",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [],
+      "hotspots": [
+        {
+          "hotspotId": "panel_cover",
+          "rect": {
+            "x": 0.38,
+            "y": 0.16,
+            "w": 0.25,
+            "h": 0.36
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_breaker"
+        },
+        {
+          "hotspotId": "fuse_socket",
+          "rect": {
+            "x": 0.4,
+            "y": 0.22,
+            "w": 0.21,
+            "h": 0.27
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_breaker"
+        },
+        {
+          "hotspotId": "main_breaker",
+          "rect": {
+            "x": 0.7,
+            "y": 0.28,
+            "w": 0.08,
+            "h": 0.14
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_breaker"
+        }
+      ]
+    },
+    {
+      "sceneId": "R01",
+      "viewId": "D",
+      "baseAssetId": "CH01_R01_D",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [
+        {
+          "whenCompleted": "P07",
+          "assetId": "CH01_R01_D_VENT_OPEN",
+          "mode": "full-frame-replacement"
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "vent_cover",
+          "rect": {
+            "x": 0.22,
+            "y": 0.56,
+            "w": 0.22,
+            "h": 0.12
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_vent"
+        },
+        {
+          "hotspotId": "vent_key",
+          "rect": {
+            "x": 0.25,
+            "y": 0.6,
+            "w": 0.17,
+            "h": 0.06
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        },
+        {
+          "hotspotId": "office_door",
+          "rect": {
+            "x": 0.52,
+            "y": 0.13,
+            "w": 0.41,
+            "h": 0.61
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R02",
+      "viewId": "A",
+      "baseAssetId": "CH01_R02_A",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [],
+      "hotspots": [
+        {
+          "hotspotId": "desk_plan",
+          "rect": {
+            "x": 0.42,
+            "y": 0.477,
+            "w": 0.27,
+            "h": 0.06
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_circuit_paper"
+        },
+        {
+          "hotspotId": "desk_drawer",
+          "rect": {
+            "x": 0.595,
+            "y": 0.573,
+            "w": 0.22,
+            "h": 0.09
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R02",
+      "viewId": "B",
+      "baseAssetId": "CH01_R02_B",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [],
+      "hotspots": [
+        {
+          "hotspotId": "toolbox_lock",
+          "rect": {
+            "x": 0.658,
+            "y": 0.26,
+            "w": 0.18,
+            "h": 0.19
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_maintenance_box"
+        },
+        {
+          "hotspotId": "calendar",
+          "rect": {
+            "x": 0.28,
+            "y": 0.13,
+            "w": 0.19,
+            "h": 0.26
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_calendar"
+        },
+        {
+          "hotspotId": "duty_roster",
+          "rect": {
+            "x": 0.5,
+            "y": 0.16,
+            "w": 0.13,
+            "h": 0.14
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R02",
+      "viewId": "C",
+      "baseAssetId": "CH01_R02_C",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [],
+      "hotspots": [
+        {
+          "hotspotId": "maintenance_door",
+          "rect": {
+            "x": 0.34,
+            "y": 0.107,
+            "w": 0.34,
+            "h": 0.65
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R03",
+      "viewId": "A",
+      "baseAssetId": "CH01_R03_A",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [],
+      "hotspots": [
+        {
+          "hotspotId": "workbench_battery",
+          "rect": {
+            "x": 0.56,
+            "y": 0.49,
+            "w": 0.12,
+            "h": 0.065
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R03",
+      "viewId": "B",
+      "baseAssetId": "CH01_R03_B",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [
+        {
+          "whenCompleted": "P21",
+          "assetId": "CH01_R03_B_DRAINED",
+          "mode": "full-frame-replacement"
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "valve_label",
+          "rect": {
+            "x": 0.146,
+            "y": 0.075,
+            "w": 0.242,
+            "h": 0.104
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        },
+        {
+          "hotspotId": "drain_valves",
+          "rect": {
+            "x": 0.25,
+            "y": 0.24,
+            "w": 0.52,
+            "h": 0.18
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_valves"
+        },
+        {
+          "hotspotId": "sump_plate",
+          "rect": {
+            "x": 0.4,
+            "y": 0.72,
+            "w": 0.17,
+            "h": 0.075
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R03",
+      "viewId": "C",
+      "baseAssetId": "CH01_R03_C",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [
+        {
+          "whenCompleted": "P21",
+          "assetId": "CH01_R03_C_CLEAR",
+          "mode": "full-frame-replacement"
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "loading_passage",
+          "rect": {
+            "x": 0.34,
+            "y": 0.29,
+            "w": 0.47,
+            "h": 0.43
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    },
+    {
+      "sceneId": "R04",
+      "viewId": "A",
+      "baseAssetId": "CH01_R04_A",
+      "coordinateStatus": "checked against contain content rectangle in web UI; 44 CSS px minimum; target list available",
+      "stateAssets": [
+        {
+          "whenCompleted": "P24",
+          "assetId": "CH01_R04_A_OPEN",
+          "mode": "full-frame-replacement"
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "exit_keypad",
+          "rect": {
+            "x": 0.58,
+            "y": 0.36,
+            "w": 0.07,
+            "h": 0.115
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": "ch01_gate_keypad"
+        },
+        {
+          "hotspotId": "exit_gate",
+          "rect": {
+            "x": 0.19,
+            "y": 0.23,
+            "w": 0.33,
+            "h": 0.56
+          },
+          "minHitSizeCss": 44,
+          "closeupAssetId": null
+        }
+      ]
+    }
+  ],
+  "itemAssets": {
+    "metal_shard": "metal_shard",
+    "rope": "rope",
+    "note_a": "note_a",
+    "screwdriver": "screwdriver",
+    "magnet": "magnet",
+    "rope_magnet": "rope_magnet",
+    "office_key": "office_key",
+    "fuse": "fuse",
+    "valve_handle": "valve_handle",
+    "uv_lamp": "uv_lamp",
+    "battery_pack": "battery_pack",
+    "uv_lamp_ready": "uv_lamp_ready",
+    "exit_plate": "exit_plate"
+  },
+  "layers": [
+    {
+      "scene": "R01_B",
+      "assetPath": "overlays/ch01/shelf_label_1.svg",
+      "rect": {
+        "x": 0.364,
+        "y": 0.348,
+        "w": 0.055,
+        "h": 0.016
+      },
+      "when": "always"
+    },
+    {
+      "scene": "R01_B",
+      "assetPath": "overlays/ch01/shelf_label_2.svg",
+      "rect": {
+        "x": 0.364,
+        "y": 0.527,
+        "w": 0.055,
+        "h": 0.016
+      },
+      "when": "always"
+    },
+    {
+      "scene": "R01_B",
+      "assetPath": "overlays/ch01/shelf_label_3.svg",
+      "rect": {
+        "x": 0.364,
+        "y": 0.702,
+        "w": 0.055,
+        "h": 0.016
+      },
+      "when": "always"
+    },
+    {
+      "scene": "R01_B",
+      "assetId": "note_a",
+      "rect": {
+        "x": 0.35,
+        "y": 0.674,
+        "w": 0.12,
+        "h": 0.045
+      },
+      "visibleWhen": {
+        "completedAll": [
+          "P03"
+        ],
+        "notCompletedAny": [
+          "P04"
+        ]
+      },
+      "note": "Cover decorative paper with the collectible; detailed text shown in close-up."
+    },
+    {
+      "scene": "R01_B",
+      "assetId": "screwdriver",
+      "rect": {
+        "x": 0.748,
+        "y": 0.5,
+        "w": 0.06,
+        "h": 0.09
+      },
+      "visibleWhen": {
+        "completedAll": [
+          "P05"
+        ],
+        "notCompletedAny": [
+          "P06"
+        ]
+      }
+    },
+    {
+      "scene": "R01_B",
+      "assetId": "magnet",
+      "rect": {
+        "x": 0.81,
+        "y": 0.59,
+        "w": 0.06,
+        "h": 0.06
+      },
+      "visibleWhen": {
+        "completedAll": [
+          "P05"
+        ],
+        "notCompletedAny": [
+          "P06"
+        ]
+      }
+    },
+    {
+      "scene": "R01_D",
+      "assetId": "office_key",
+      "rect": {
+        "x": 0.29,
+        "y": 0.616,
+        "w": 0.065,
+        "h": 0.032
+      },
+      "visibleWhen": {
+        "completedAll": [
+          "P07"
+        ],
+        "notCompletedAny": [
+          "P09"
+        ]
+      }
+    },
+    {
+      "scene": "R03_A",
+      "assetId": "battery_pack",
+      "rect": {
+        "x": 0.56,
+        "y": 0.49,
+        "w": 0.12,
+        "h": 0.065
+      },
+      "visibleWhen": {
+        "completedAll": [
+          "P17"
+        ],
+        "notCompletedAny": [
+          "P18"
+        ]
+      }
+    },
+    {
+      "scene": "R03_B",
+      "assetId": "valve_handle",
+      "rect": {
+        "x": 0.505,
+        "y": 0.298,
+        "w": 0.1,
+        "h": 0.1
+      },
+      "visibleWhen": {
+        "completedAll": [
+          "P21"
+        ]
+      },
+      "note": "Installed center shaft; use contentRect alignment from manifest."
+    },
+    {
+      "scene": "R03_B",
+      "assetId": "exit_plate",
+      "rect": {
+        "x": 0.4,
+        "y": 0.72,
+        "w": 0.17,
+        "h": 0.075
+      },
+      "visibleWhen": {
+        "completedAll": [
+          "P21"
+        ],
+        "notCompletedAny": [
+          "P22"
+        ]
+      }
+    }
+  ],
+  "closeupOverlayRects": {
+    "ch01_calendar": {
+      "calendar": {
+        "x": 0.08,
+        "y": 0.15,
+        "w": 0.53,
+        "h": 0.65
+      },
+      "duty_roster": {
+        "x": 0.66,
+        "y": 0.15,
+        "w": 0.29,
+        "h": 0.64
+      }
+    },
+    "ch01_brass_plate": {
+      "engraving": {
+        "x": 0.1,
+        "y": 0.32,
+        "w": 0.79,
+        "h": 0.35
+      },
+      "uvNumbers": {
+        "x": 0.1,
+        "y": 0.32,
+        "w": 0.79,
+        "h": 0.35,
+        "whenCompleted": "P23"
+      }
+    },
+    "ch01_breaker": {
+      "f1": {
+        "x": 0.25,
+        "y": 0.26,
+        "w": 0.21,
+        "h": 0.42
+      },
+      "f2": {
+        "x": 0.5,
+        "y": 0.26,
+        "w": 0.17,
+        "h": 0.42
+      },
+      "mainToggle": {
+        "x": 0.72,
+        "y": 0.32,
+        "w": 0.13,
+        "h": 0.3
+      }
+    },
+    "ch01_valves": {
+      "sea": {
+        "x": 0.03,
+        "y": 0.24,
+        "w": 0.29,
+        "h": 0.3
+      },
+      "tank": {
+        "x": 0.37,
+        "y": 0.24,
+        "w": 0.29,
+        "h": 0.3
+      },
+      "outlet": {
+        "x": 0.7,
+        "y": 0.24,
+        "w": 0.29,
+        "h": 0.3
+      },
+      "start": {
+        "x": 0.865,
+        "y": 0.785,
+        "w": 0.09,
+        "h": 0.1
+      }
+    },
+    "ch01_gate_keypad": {
+      "display": {
+        "x": 0.22,
+        "y": 0.165,
+        "w": 0.465,
+        "h": 0.1
+      },
+      "keysArea": {
+        "x": 0.21,
+        "y": 0.34,
+        "w": 0.565,
+        "h": 0.5,
+        "columns": 3,
+        "rows": 4
+      }
+    }
+  },
+  "overlayPolicy": "All mandatory clue text is shown in readable accessible close-up HTML/SVG, not only in small scene labels. Do not expose UV number layer until P23. PNG contains no reliable clue digits; override incidental markings.",
+  "portraitPolicy": "No protagonist portrait during inner monologue; use speaker icon for announcements. Do not show taeo portraits before CH08. Memory seohee portraits use separate memory_frame and label.",
+  "stateReview": "Full-frame state variants preserve viewpoint visually; verify hotspot coverage on both states. No assumption of pixel-perfect layer registration."
+}

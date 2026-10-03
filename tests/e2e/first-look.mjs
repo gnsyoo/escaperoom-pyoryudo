@@ -1,0 +1,18 @@
+import { chromium } from './browser.mjs';
+import { mkdirSync } from 'node:fs';
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});
+page.on('pageerror',e=>console.error('PAGE ERROR',e.message));
+await page.goto('http://127.0.0.1:5173/');
+await page.locator('.title-art').evaluate(img=>img.decode());
+mkdirSync('art/ui-screens/v01',{recursive:true});
+await page.screenshot({path:'art/ui-screens/v01/01_title_390.png'});
+await page.getByRole('button',{name:'새로운 기억'}).click();
+await page.getByRole('button',{name:'다음 대사'}).click();
+await page.screenshot({path:'art/ui-screens/v01/02_broadcast_390.png'});
+await page.getByRole('button',{name:'다음 대사'}).click();
+await page.getByRole('button',{name:'다음 대사'}).click();
+await page.getByRole('button',{name:'조사 표시',exact:true}).click();
+await page.screenshot({path:'art/ui-screens/v01/03_explore_390.png'});
+console.log(JSON.stringify({title:await page.title(),scene:await page.locator('.scene-image-space').boundingBox(),hotspots:await page.locator('.hotspot').count()}));
+await browser.close();
