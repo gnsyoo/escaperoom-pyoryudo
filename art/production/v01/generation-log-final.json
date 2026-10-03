@@ -1,0 +1,911 @@
+{
+  "generatedAt": "2026-10-03",
+  "toolMode": "built-in image_gen",
+  "count": 113,
+  "assets": [
+    {
+      "id": "CH01_R01_A",
+      "path": "backgrounds/ch01/ch01_r01_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-3b98a5b8-77c8-4a62-88c0-ebed2da77ddd.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_B",
+      "path": "backgrounds/ch01/ch01_r01_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-1438b303-d957-41ed-a2e0-37b0e99c0547.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_C",
+      "path": "backgrounds/ch01/ch01_r01_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-10a7450a-d3f6-4818-b235-e7f5a591a078.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R02_A",
+      "path": "backgrounds/ch01/ch01_r02_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-49f99948-fb0d-4d33-86d7-cabaae31921f.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R02_B",
+      "path": "backgrounds/ch01/ch01_r02_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-ae60d0a7-ee65-4917-9195-cee633815e7e.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R02_C",
+      "path": "backgrounds/ch01/ch01_r02_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-aee806de-d582-440e-9075-bfcf993ee8d0.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_D",
+      "path": "backgrounds/ch01/ch01_r01_d_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-95c2cd34-eb6c-4915-995b-a9b56e5c2b70.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_B",
+      "path": "backgrounds/ch01/ch01_r03_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-3d1be656-07d7-4391-8f98-8642cc112f16.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R04_A",
+      "path": "backgrounds/ch01/ch01_r04_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-5089c17a-bbf6-457f-91c3-5070a8ebec69.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_C",
+      "path": "backgrounds/ch01/ch01_r03_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-892607bf-ee82-4ee7-83d3-e5aaaf042b6b.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_A",
+      "path": "backgrounds/ch01/ch01_r03_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-01ef09c0-5bbd-46fe-a759-4df52ee7c046.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "metal_shard",
+      "path": "items/ch01/metal_shard_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-db1c9760-f049-4eae-9a7f-e8ba59c3e6e6.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "screwdriver",
+      "path": "items/ch01/screwdriver_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-19e42b75-784f-47a3-9e1a-1972748b9c20.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "magnet",
+      "path": "items/ch01/magnet_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a6d0bebb-5cb1-4303-a4e1-b2e038b6deac.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "rope",
+      "path": "items/ch01/rope_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-8e319f28-3f34-4674-9d78-e9408367082e.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "rope_magnet",
+      "path": "items/ch01/rope_magnet_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-feba95f6-e020-4c3a-9d81-9259a68590c8.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "office_key",
+      "path": "items/ch01/office_key_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-96251bbc-06bc-4c41-a055-2d0cb48b4733.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "fuse",
+      "path": "items/ch01/fuse_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-b70288f6-fc45-4d78-a9ef-ae97cf45f32f.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "note_a",
+      "path": "items/ch01/note_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-f0ec597e-b899-47ec-9888-1120c1302435.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "uv_lamp",
+      "path": "items/ch01/uv_lamp_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-045ab43c-5033-4fe5-9f49-021277f7b987.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "battery_pack",
+      "path": "items/ch01/battery_pack_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-583aad72-7335-4787-9292-2efd15e0cb2a.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "exit_plate",
+      "path": "items/ch01/exit_plate_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-50b6cb19-5f86-49b1-b2b7-d216207aeb59.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "doyun_neutral",
+      "path": "characters/doyun/doyun_neutral_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-d3d85d00-5bba-4a00-82e7-73fe61538582.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "hyejin_neutral",
+      "path": "characters/hyejin/hyejin_neutral_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-033dd5ec-7a2e-4066-8619-de34c460cdfd.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "valve_handle",
+      "path": "items/ch01/valve_handle_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-1dbb7467-786c-4f52-815c-37978a5ec723.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH02_B",
+      "path": "backgrounds/ch02/ch02_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-503f5880-4b00-4722-9409-06b1e9a69fbb.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH02_C",
+      "path": "backgrounds/ch02/ch02_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a13718b8-043c-441a-a818-1107b896a9ee.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "uv_lamp_ready",
+      "path": "items/ch01/uv_lamp_ready_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-2728eba3-eb33-494f-8bdb-02fdf60c6fc0.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "taeo_neutral",
+      "path": "characters/taeo/taeo_neutral_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-22b400fd-a534-46d1-b449-20c18070d2b2.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seorin_neutral",
+      "path": "characters/seorin/seorin_neutral_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-466e6d34-9d08-42a0-bd59-91a4e0c4e12d.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "minseok_neutral",
+      "path": "characters/minseok/minseok_neutral_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-796f8ff4-ea5e-44c9-9a1d-db31787eb4f2.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH02_A",
+      "path": "backgrounds/ch02/ch02_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-dce4dfd8-804e-41b4-bac9-0dbc09f8dc4b.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seohee_neutral",
+      "path": "characters/seohee/seohee_neutral_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-4783d5da-3ff8-4045-b1a7-ff172fef2693.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_cabinet_lock",
+      "path": "puzzles/ch01/cabinet_lock_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-568d9266-bf59-4198-8900-a3ea1259ec0a.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_vent",
+      "path": "puzzles/ch01/vent_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-9be7167c-5d62-4ac9-b160-c4ee22f6b43c.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_breaker",
+      "path": "puzzles/ch01/breaker_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-9d0fc44a-31f1-456f-989a-55ec808c63c1.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_calendar",
+      "path": "puzzles/ch01/calendar_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-98a8d457-6dd2-4798-bc52-477d6d4ccab7.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_maintenance_box",
+      "path": "puzzles/ch01/maintenance_box_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-9196701a-7417-4c72-be72-3782207ae458.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_circuit_paper",
+      "path": "puzzles/ch01/circuit_paper_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-bdf8411a-9e7e-4d2a-9a96-6426cb1fc7f9.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_valves",
+      "path": "puzzles/ch01/valves_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-47039106-fe16-4bd5-8bdb-9e3dae6ce3e0.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_brass_plate",
+      "path": "puzzles/ch01/brass_plate_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-507c7888-47a7-443e-b997-58df63738b5f.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_restraint",
+      "path": "puzzles/ch01/restraint_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-3c938987-0ac2-4532-9370-4233b51e8b1f.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ch01_gate_keypad",
+      "path": "puzzles/ch01/gate_keypad_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-19cd5be5-3933-47d9-9e23-2f82abddc8f9.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH03_A",
+      "path": "backgrounds/ch03/ch03_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-e65e03b9-b5c6-497f-8a18-4bc7c13a2b6d.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH03_C",
+      "path": "backgrounds/ch03/ch03_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-5ebb37c3-8306-4fcc-9e0a-6e0f60fc92c5.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH04_B",
+      "path": "backgrounds/ch04/ch04_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-afa3b172-d6cd-4a36-a7d8-5a8c0da1069b.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH04_C",
+      "path": "backgrounds/ch04/ch04_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-f757b893-0a8c-4289-b7fc-b7d9d9482a58.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH04_A",
+      "path": "backgrounds/ch04/ch04_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-9595a40d-9ff6-4c43-9814-6f9067c73448.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH03_B",
+      "path": "backgrounds/ch03/ch03_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a1b5fa52-0c6b-4f59-9c87-8ed3fb8765dd.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH04_D",
+      "path": "backgrounds/ch04/ch04_d_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-39d50d96-c987-40a7-a965-4db0e8dcf6a6.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_B_DRAINED",
+      "path": "states/ch01/ch01_r03_b_drained_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-abda3442-1d13-4850-8cfd-f76b3902dac1.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_D_VENT_OPEN",
+      "path": "states/ch01/ch01_r01_d_vent_open_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-b3007c61-d94e-492f-ae7c-46e485433640.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R04_A_OPEN",
+      "path": "states/ch01/ch01_r04_a_open_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-447e958d-ebca-477f-b6a7-b9c30c33a358.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_C_CLEAR",
+      "path": "states/ch01/ch01_r03_c_clear_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-b44b5cff-8c75-47f5-ae54-3d4969533a7d.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_B_OPEN",
+      "path": "states/ch01/ch01_r01_b_open_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-b2374201-4460-482b-94c7-beb0287ff675.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "hyejin_relieved",
+      "path": "characters/hyejin/hyejin_relieved_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-6a1758c5-ec25-49fc-b26a-9badadc94ec3.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "hyejin_analytical",
+      "path": "characters/hyejin/hyejin_analytical_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a4ecad1d-4fc2-45b4-92ef-914c465a122d.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seorin_relieved",
+      "path": "characters/seorin/seorin_relieved_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-87832285-682a-4dc1-a47d-29f0663e8299.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "hyejin_concerned",
+      "path": "characters/hyejin/hyejin_concerned_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-8ef160a8-a78a-4f8f-868b-19a71a8b327e.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "doyun_resolved",
+      "path": "characters/doyun/doyun_resolved_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-665c1dc2-3248-4dc3-a639-1a2e010c5c70.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "taeo_hesitant",
+      "path": "characters/taeo/taeo_hesitant_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-b5706430-ff62-4a44-9a2e-5482c45540fb.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "taeo_cooperative",
+      "path": "characters/taeo/taeo_cooperative_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-0800bddd-f29b-4e40-a5dc-f56bc1db329e.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "doyun_alert",
+      "path": "characters/doyun/doyun_alert_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a2aee87e-9a59-4374-9bd5-8f7b36de8bf0.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seorin_worried",
+      "path": "characters/seorin/seorin_worried_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-e29f9f45-84dd-4cb9-8340-cf02fdf89c2f.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "doyun_distressed",
+      "path": "characters/doyun/doyun_distressed_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-3e243cc9-8e76-4ece-b917-9c5df1f1a683.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seorin_questioning",
+      "path": "characters/seorin/seorin_questioning_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-ad187f41-7dc6-4128-ad83-d74a7e7da8c7.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "taeo_stern",
+      "path": "characters/taeo/taeo_stern_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a55cebb7-7835-4617-bfbc-e176c6100d8c.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH05_B",
+      "path": "backgrounds/ch05/ch05_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-d0a7fd43-6686-4834-b697-c6811e10b484.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH05_C",
+      "path": "backgrounds/ch05/ch05_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-da95965b-363f-42fd-92af-f6afc9daa028.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH05_D",
+      "path": "backgrounds/ch05/ch05_d_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-d49a899a-3622-450b-818b-b0865699b8fc.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH06_A",
+      "path": "backgrounds/ch06/ch06_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-6e288865-a48e-4a18-88df-95b9f77c98c2.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH06_B",
+      "path": "backgrounds/ch06/ch06_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-07e7adee-8040-46b2-9a57-f26aa2165cdd.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH05_A",
+      "path": "backgrounds/ch05/ch05_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-3474259d-04af-4d6d-b841-e95ab96fbcc3.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH06_C",
+      "path": "backgrounds/ch06/ch06_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-4cf3a121-56be-4cce-af7f-84b004d11eb1.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "minseok_alarmed",
+      "path": "characters/minseok/minseok_alarmed_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-2e11e7db-b0f9-412a-9c58-f798752f88c0.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "minseok_defensive",
+      "path": "characters/minseok/minseok_defensive_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-0da7eb10-99be-4087-9dce-7e217f91ca4d.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "minseok_ashamed",
+      "path": "characters/minseok/minseok_ashamed_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-8886ec20-e684-484d-b8c4-972d8fcb4666.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seohee_warm",
+      "path": "characters/seohee/seohee_warm_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-16d74968-e226-4d70-828e-aa58e4b1f576.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seohee_thoughtful",
+      "path": "characters/seohee/seohee_thoughtful_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a6fcc383-cfd8-4d3f-9f64-ac6e7bf94d95.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "seohee_concerned",
+      "path": "characters/seohee/seohee_concerned_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-74771664-476d-4576-94ce-af2f6b366c76.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH07_A",
+      "path": "backgrounds/ch07/ch07_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-c28bbcf2-caf6-4a93-8479-dfaf2c52bdd8.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH07_C",
+      "path": "backgrounds/ch07/ch07_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-bdcc69df-5481-4466-a889-217cfada5c28.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH08_A",
+      "path": "backgrounds/ch08/ch08_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-974b3405-5bcc-4af9-a331-28d1807e4a76.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH08_B",
+      "path": "backgrounds/ch08/ch08_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-43295472-9a48-4c26-919b-f8a588a22f2e.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH08_C",
+      "path": "backgrounds/ch08/ch08_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-9f443253-3794-4c0b-8f4d-3dcd8ad5e0db.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH08_D",
+      "path": "backgrounds/ch08/ch08_d_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-81c0e03b-5e85-49c2-b6bb-c31ed30d583b.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH09_A",
+      "path": "backgrounds/ch09/ch09_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-5f9d5110-fc5b-417e-a053-1506468e8c8b.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH09_B",
+      "path": "backgrounds/ch09/ch09_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-d39fe9fe-d7b7-4a3e-95a4-69a2106087ae.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH09_C",
+      "path": "backgrounds/ch09/ch09_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-966ef1f2-d9c9-45f3-8353-0432cb1d0309.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH10_A",
+      "path": "backgrounds/ch10/ch10_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-5bba79ac-e6e7-482c-b420-cd8ffcca786a.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH10_B",
+      "path": "backgrounds/ch10/ch10_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-d448174d-68e7-44f5-aba6-936a260cd4d5.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH07_B",
+      "path": "backgrounds/ch07/ch07_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-704fa6df-de4b-43a9-913f-80e27ad20894.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH10_C",
+      "path": "backgrounds/ch10/ch10_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-c5267d2c-7933-4187-a1a2-163582c6d324.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "tide_watch",
+      "path": "items/ch02/tide_watch_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-d3ddd166-e49f-4d22-beac-7139dc85a9f9.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "reflector_disk",
+      "path": "items/ch03/reflector_disk_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-1dd34fa4-0ace-49d7-bf7c-d121f2d9f64c.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "archive_key",
+      "path": "items/ch05/archive_key_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-e5ba8f64-6450-42ab-a24e-8191d0eae8f8.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "lens_crank",
+      "path": "items/ch04/lens_crank_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-639f992d-b626-47f5-814c-abd39ddfebc4.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "safety_pin",
+      "path": "items/ch06/safety_pin_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-064d2c89-86f0-4501-9e7e-a513dea9348d.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "repair_plank",
+      "path": "items/ch06/repair_plank_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-32f0632a-b3eb-4f11-a573-b5cd61e3b73f.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "radio_connector",
+      "path": "items/ch07/radio_connector_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-be002f6f-b26b-4a82-9168-df175ac603e8.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "backup_drive",
+      "path": "items/ch08/backup_drive_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-b97cec83-03c9-47fd-bcda-9e4be2e3a5ee.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "generator_fuse",
+      "path": "items/ch09/generator_fuse_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-b462909a-f909-4299-9f69-62b829c95a5d.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "fuel_hose",
+      "path": "items/ch10/fuel_hose_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-0be64be1-aba4-4018-b916-dd87b7070cb3.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "contact_tool",
+      "path": "items/ch10/contact_tool_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-917c53d5-75c5-4093-83bd-23f9d7bdb195.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "boat_key",
+      "path": "items/ch10/boat_key_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-eb3dba98-d1e7-41cd-8fa0-befd73e5f569.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "title_island",
+      "path": "title/title_island_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-ca4a035d-b249-4003-a571-c90d65529801.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH09_A_POWER",
+      "path": "states/ch09/ch09_a_power_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-8c479aa4-95df-4d3d-bc4d-b25681fc5ff3.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH03_A_HIGH",
+      "path": "states/ch03/ch03_a_high_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-6dfd7dc4-d742-475a-986d-f6821a3b1d71.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "island_map",
+      "path": "map/island_map_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-ccd9fe94-058f-45e4-b67d-9b50824ce8f5.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ending_truth",
+      "path": "story/ending_truth_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a169ac1e-ba1b-4125-939b-c1a2c796dde8.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ending_partial",
+      "path": "story/ending_partial_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-35b1bd38-755c-441e-a757-bf1b81c8e2c3.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "relay_key",
+      "path": "items/ch03/relay_key_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-67b5ace1-2a30-4bac-9aa6-b0c3c5bff3e0.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "ending_silence",
+      "path": "story/ending_silence_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-59ba3331-e8a4-4b19-a5cc-eadd0e1bf560.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    }
+  ]
+}

@@ -1,0 +1,955 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "CH01",
+  "contentVersion": "ch01.1",
+  "items": [
+    {
+      "id": "metal_shard",
+      "name": "금속 조각"
+    },
+    {
+      "id": "rope",
+      "name": "끈"
+    },
+    {
+      "id": "note_a",
+      "name": "쪽지 A"
+    },
+    {
+      "id": "screwdriver",
+      "name": "드라이버"
+    },
+    {
+      "id": "magnet",
+      "name": "자석"
+    },
+    {
+      "id": "rope_magnet",
+      "name": "자석 줄"
+    },
+    {
+      "id": "office_key",
+      "name": "관리실 열쇠"
+    },
+    {
+      "id": "fuse",
+      "name": "예비 퓨즈"
+    },
+    {
+      "id": "valve_handle",
+      "name": "밸브 손잡이"
+    },
+    {
+      "id": "uv_lamp",
+      "name": "전지 없는 UV 램프"
+    },
+    {
+      "id": "battery_pack",
+      "name": "배터리 팩"
+    },
+    {
+      "id": "uv_lamp_ready",
+      "name": "작동 UV 램프"
+    },
+    {
+      "id": "exit_plate",
+      "name": "황동 명판"
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "P01",
+      "title": "결박과 의자 조사",
+      "category": "action",
+      "mode": "inspect",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "A",
+        "hotspotId": "binding"
+      },
+      "requiresCompleted": [],
+      "requiresItems": [],
+      "clue": "손끝은 조금 움직이고 왼쪽 버팀대가 썩어 있다.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "손목과 의자를 살펴보자.",
+        "손끝이 닿는 범위에 약해진 부분이 있다.",
+        "결박을 조사하면 의자 왼쪽 버팀대를 조작할 수 있다."
+      ],
+      "failText": "손목 결박을 먼저 살펴보자.",
+      "repeatText": "왼쪽 버팀대가 썩어 있다."
+    },
+    {
+      "id": "P02",
+      "title": "의자 버팀대 부수기",
+      "category": "action",
+      "mode": "repeat",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "A",
+        "hotspotId": "chair_brace"
+      },
+      "requiresCompleted": [
+        "P01"
+      ],
+      "requiresItems": [],
+      "clue": "왼쪽에 체중을 실을 때마다 버팀대 균열이 커진다.",
+      "expectedAnswer": 3,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "metal_shard"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "의자의 약한 다리를 찾자.",
+        "한 방향에 체중을 반복해서 실어 보자.",
+        "왼쪽으로 체중 싣기를 3회 선택한다."
+      ],
+      "failText": "왼쪽 버팀대에 체중을 더 실어야 한다.",
+      "repeatText": "금속 조각을 이미 챙겼다."
+    },
+    {
+      "id": "P03",
+      "title": "결박 끊기",
+      "category": "core",
+      "mode": "use",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "A",
+        "hotspotId": "binding"
+      },
+      "requiresCompleted": [
+        "P02"
+      ],
+      "requiresItems": [
+        "metal_shard"
+      ],
+      "clue": "금속 조각의 모서리는 날카롭고 손목 끈에 닿는다.",
+      "expectedAnswer": {
+        "itemId": "metal_shard",
+        "targetId": "binding"
+      },
+      "effects": {
+        "consumeItems": [
+          "metal_shard"
+        ],
+        "grantItems": [
+          "rope"
+        ],
+        "grantEvidence": [],
+        "setFlags": {
+          "free_hands": true
+        }
+      },
+      "hints": [
+        "날카로운 물건을 찾자.",
+        "금속 조각은 끈에 사용할 수 있다.",
+        "금속 조각을 선택하고 손목 결박을 누른다."
+      ],
+      "failText": "이 물건으로는 끈을 끊을 수 없다.",
+      "repeatText": "손목은 이미 풀렸다."
+    },
+    {
+      "id": "P04",
+      "title": "선반 쪽지 회수",
+      "category": "action",
+      "mode": "inspect",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "B",
+        "hotspotId": "shelf_note"
+      },
+      "requiresCompleted": [
+        "P03"
+      ],
+      "requiresItems": [],
+      "clue": "높은 칸부터 낮은 칸까지. 앞에 적힌 숫자만.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "note_a"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "선반 아래쪽을 보자.",
+        "쪽지에 선반을 읽는 순서가 있다.",
+        "선반 쪽지를 조사해 챙긴다."
+      ],
+      "failText": "쪽지가 있는 선반을 살펴보자.",
+      "repeatText": "쪽지 전문은 수첩에서 다시 볼 수 있다."
+    },
+    {
+      "id": "P05",
+      "title": "선반 숫자 잠금함",
+      "category": "core",
+      "mode": "code",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "B",
+        "hotspotId": "cabinet_lock"
+      },
+      "requiresCompleted": [
+        "P04"
+      ],
+      "requiresItems": [],
+      "clue": "선반 앞면 숫자 위 4, 중간 1, 아래 7. 쪽지는 위에서 아래 순서다.",
+      "expectedAnswer": "417",
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "cabinet_open": true
+        }
+      },
+      "hints": [
+        "선반과 쪽지를 같이 보자.",
+        "칸 앞면의 숫자를 높은 칸부터 읽는다.",
+        "잠금함에 417을 입력한다."
+      ],
+      "failText": "잠금이 풀리지 않는다.",
+      "repeatText": "잠금함은 이미 열렸다."
+    },
+    {
+      "id": "P06",
+      "title": "잠금함 도구 회수",
+      "category": "action",
+      "mode": "inspect",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "B",
+        "hotspotId": "cabinet_inside"
+      },
+      "requiresCompleted": [
+        "P05"
+      ],
+      "requiresItems": [],
+      "clue": "열린 잠금함 안에 드라이버와 자석이 있다.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "screwdriver",
+          "magnet"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "열린 잠금함 안을 보자.",
+        "도구 두 개가 놓여 있다.",
+        "잠금함 내부를 조사해 드라이버와 자석을 챙긴다."
+      ],
+      "failText": "잠금함이 아직 닫혀 있다.",
+      "repeatText": "안에 있던 도구를 모두 챙겼다."
+    },
+    {
+      "id": "P07",
+      "title": "환기구 덮개 열기",
+      "category": "core",
+      "mode": "use",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "D",
+        "hotspotId": "vent_cover"
+      },
+      "requiresCompleted": [
+        "P06"
+      ],
+      "requiresItems": [
+        "screwdriver"
+      ],
+      "clue": "환기구 덮개에 나사 4개가 보인다.",
+      "expectedAnswer": {
+        "itemId": "screwdriver",
+        "targetId": "vent_cover"
+      },
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "vent_open": true
+        }
+      },
+      "hints": [
+        "문 옆 환기구를 보자.",
+        "덮개는 나사로 고정되어 있다.",
+        "드라이버를 환기구 덮개에 사용한다."
+      ],
+      "failText": "이 나사는 손으로 풀 수 없다.",
+      "repeatText": "덮개가 열려 있고 아래에 열쇠가 보인다."
+    },
+    {
+      "id": "P08",
+      "title": "자석 줄 제작",
+      "category": "core",
+      "mode": "combine",
+      "location": {
+        "sceneId": "ANY",
+        "viewId": "ANY",
+        "hotspotId": "inventory"
+      },
+      "requiresCompleted": [
+        "P03",
+        "P06"
+      ],
+      "requiresItems": [
+        "rope",
+        "magnet"
+      ],
+      "clue": "환기구 아래는 손이 닿지 않는다. 끈과 자석을 연결할 수 있다.",
+      "expectedAnswer": [
+        "rope",
+        "magnet"
+      ],
+      "effects": {
+        "consumeItems": [
+          "rope",
+          "magnet"
+        ],
+        "grantItems": [
+          "rope_magnet"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "인벤토리의 끈과 작은 도구를 살펴보자.",
+        "금속을 붙잡을 물건에 길이를 더한다.",
+        "끈과 자석을 조합한다."
+      ],
+      "failText": "이 둘을 연결할 방법이 없다.",
+      "repeatText": "자석 줄을 이미 만들었다."
+    },
+    {
+      "id": "P09",
+      "title": "관리실 열쇠 인양",
+      "category": "core",
+      "mode": "use",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "D",
+        "hotspotId": "vent_key"
+      },
+      "requiresCompleted": [
+        "P07",
+        "P08"
+      ],
+      "requiresItems": [
+        "rope_magnet"
+      ],
+      "clue": "열린 환기구 아래 금속 열쇠가 떨어져 있다.",
+      "expectedAnswer": {
+        "itemId": "rope_magnet",
+        "targetId": "vent_key"
+      },
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "office_key"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "환기구 아래 반짝이는 물체를 보자.",
+        "금속 열쇠는 자석에 붙는다.",
+        "자석 줄을 열린 환기구의 열쇠에 사용한다."
+      ],
+      "failText": "손이 닿지 않는다. 다른 도구가 필요하다.",
+      "repeatText": "관리실 열쇠를 이미 건졌다."
+    },
+    {
+      "id": "P10",
+      "title": "관리실 진입",
+      "category": "action",
+      "mode": "use",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "D",
+        "hotspotId": "office_door"
+      },
+      "requiresCompleted": [
+        "P09"
+      ],
+      "requiresItems": [
+        "office_key"
+      ],
+      "clue": "관리실 문에는 일반 열쇠구멍이 있다.",
+      "expectedAnswer": {
+        "itemId": "office_key",
+        "targetId": "office_door"
+      },
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "office_open": true
+        },
+        "transition": {
+          "sceneId": "R02",
+          "viewId": "A"
+        }
+      },
+      "hints": [
+        "환기구 옆 문을 확인하자.",
+        "건진 열쇠는 관리실 열쇠다.",
+        "관리실 열쇠를 관리실 문에 사용한다."
+      ],
+      "failText": "문이 잠겨 있다.",
+      "repeatText": "관리실 문은 열려 있다."
+    },
+    {
+      "id": "P11",
+      "title": "찢긴 회로도 복원",
+      "category": "core",
+      "mode": "arrange",
+      "location": {
+        "sceneId": "R02",
+        "viewId": "A",
+        "hotspotId": "desk_plan"
+      },
+      "requiresCompleted": [
+        "P04",
+        "P10"
+      ],
+      "requiresItems": [
+        "note_a"
+      ],
+      "clue": "쪽지 A 상단과 책상의 하단 조각을 파선과 화살표가 이어지도록 놓는다.",
+      "expectedAnswer": [
+        "upper_a",
+        "lower_desk"
+      ],
+      "effects": {
+        "consumeItems": [
+          "note_a"
+        ],
+        "grantItems": [],
+        "grantEvidence": [
+          "circuit_plan"
+        ],
+        "setFlags": {}
+      },
+      "hints": [
+        "책상에 남은 도면 조각을 보자.",
+        "쪽지 A와 책상 조각의 끊어진 선을 맞춘다.",
+        "위쪽에 쪽지 A, 아래쪽에 책상 조각을 놓는다."
+      ],
+      "failText": "배선과 파선이 이어지지 않는다.",
+      "repeatText": "완성 회로도는 수첩 증거에 있다."
+    },
+    {
+      "id": "P12",
+      "title": "예비 퓨즈 회수",
+      "category": "action",
+      "mode": "inspect",
+      "location": {
+        "sceneId": "R02",
+        "viewId": "A",
+        "hotspotId": "desk_drawer"
+      },
+      "requiresCompleted": [
+        "P10"
+      ],
+      "requiresItems": [],
+      "clue": "책상 서랍 안에 F2 규격 예비 퓨즈가 있다.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "fuse"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "책상 서랍을 보자.",
+        "전원 복구에 쓸 부품이 있다.",
+        "책상 서랍을 조사해 예비 퓨즈를 챙긴다."
+      ],
+      "failText": "서랍을 다시 살펴보자.",
+      "repeatText": "예비 퓨즈를 이미 챙겼다."
+    },
+    {
+      "id": "P13",
+      "title": "배전함 커버 열기",
+      "category": "action",
+      "mode": "use",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "C",
+        "hotspotId": "panel_cover"
+      },
+      "requiresCompleted": [
+        "P06"
+      ],
+      "requiresItems": [
+        "screwdriver"
+      ],
+      "clue": "배전함은 나사로 잠겨 있고 주차단기는 OFF다.",
+      "expectedAnswer": {
+        "itemId": "screwdriver",
+        "targetId": "panel_cover"
+      },
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "panel_open": true
+        }
+      },
+      "hints": [
+        "창고 배전함을 보자.",
+        "환기구를 열었던 도구를 다시 쓸 수 있다.",
+        "드라이버를 배전함 커버에 사용한다."
+      ],
+      "failText": "커버를 풀 도구가 필요하다.",
+      "repeatText": "배전함 커버는 이미 열렸다."
+    },
+    {
+      "id": "P14",
+      "title": "F2 퓨즈 복구",
+      "category": "core",
+      "mode": "use",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "C",
+        "hotspotId": "fuse_socket"
+      },
+      "requiresCompleted": [
+        "P11",
+        "P12",
+        "P13"
+      ],
+      "requiresItems": [
+        "fuse"
+      ],
+      "clue": "회로도는 F1 통신 예비, F2 관리실 조명과 문 잠금이라고 적혀 있다.",
+      "expectedAnswer": {
+        "itemId": "fuse",
+        "targetId": "F2"
+      },
+      "effects": {
+        "consumeItems": [
+          "fuse"
+        ],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "fuse_installed": true
+        }
+      },
+      "hints": [
+        "완성 회로도와 배전함을 대조하자.",
+        "관리실 전원은 F2 회로다.",
+        "예비 퓨즈를 F2에 끼운다."
+      ],
+      "failText": "여긴 통신 예비 회로다. 조명 회로를 찾아야 한다.",
+      "repeatText": "F2 퓨즈가 정상으로 설치됐다."
+    },
+    {
+      "id": "P15",
+      "title": "주차단기 켜기",
+      "category": "action",
+      "mode": "switch",
+      "location": {
+        "sceneId": "R01",
+        "viewId": "C",
+        "hotspotId": "main_breaker"
+      },
+      "requiresCompleted": [
+        "P14"
+      ],
+      "requiresItems": [],
+      "clue": "회로도는 퓨즈 복구 후 주차단기를 ON으로 하라고 지시한다.",
+      "expectedAnswer": "ON",
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "power_on": true
+        }
+      },
+      "hints": [
+        "배전함의 주차단기를 보자.",
+        "퓨즈를 넣었다면 전원을 연결할 차례다.",
+        "주차단기를 ON으로 바꾼다."
+      ],
+      "failText": "먼저 퓨즈 회로를 복구해야 한다.",
+      "repeatText": "전원이 이미 켜졌다."
+    },
+    {
+      "id": "P16",
+      "title": "관리실 점검함 열기",
+      "category": "core",
+      "mode": "code",
+      "location": {
+        "sceneId": "R02",
+        "viewId": "B",
+        "hotspotId": "toolbox_lock"
+      },
+      "requiresCompleted": [
+        "P10",
+        "P15"
+      ],
+      "requiresItems": [],
+      "clue": "달력 점검일 12일, 근무표 3조. 잠금 규칙은 날짜 두 자리와 조 한 자리다.",
+      "expectedAnswer": "123",
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "valve_handle",
+          "uv_lamp"
+        ],
+        "grantEvidence": [],
+        "setFlags": {
+          "toolbox_open": true
+        }
+      },
+      "hints": [
+        "조명이 켜진 달력과 근무표를 보자.",
+        "점검 날짜 두 자리 뒤에 근무조 한 자리를 붙인다.",
+        "점검함에 123을 입력한다."
+      ],
+      "failText": "잠금이 풀리지 않는다.",
+      "repeatText": "점검함의 손잡이와 UV 램프를 챙겼다."
+    },
+    {
+      "id": "P17",
+      "title": "설비실 진입",
+      "category": "action",
+      "mode": "move",
+      "location": {
+        "sceneId": "R02",
+        "viewId": "C",
+        "hotspotId": "maintenance_door"
+      },
+      "requiresCompleted": [
+        "P10",
+        "P15"
+      ],
+      "requiresItems": [],
+      "clue": "설비실 문 전기 잠금의 표시등이 켜졌다.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "maintenance_open": true
+        },
+        "transition": {
+          "sceneId": "R03",
+          "viewId": "A"
+        }
+      },
+      "hints": [
+        "관리실 안쪽 문을 보자.",
+        "복구된 전원이 문 잠금에도 연결된다.",
+        "설비실 문을 열고 들어간다."
+      ],
+      "failText": "전기 잠금이 풀리지 않았다.",
+      "repeatText": "설비실로 드나들 수 있다."
+    },
+    {
+      "id": "P18",
+      "title": "배터리 회수",
+      "category": "action",
+      "mode": "inspect",
+      "location": {
+        "sceneId": "R03",
+        "viewId": "A",
+        "hotspotId": "workbench_battery"
+      },
+      "requiresCompleted": [
+        "P17"
+      ],
+      "requiresItems": [],
+      "clue": "작업대에 AA 전지 2개 묶음이 있다.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "battery_pack"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "설비실 작업대를 보자.",
+        "램프에 들어갈 전지가 있다.",
+        "작업대 배터리 팩을 챙긴다."
+      ],
+      "failText": "작업대 위를 살펴보자.",
+      "repeatText": "배터리 팩을 이미 챙겼다."
+    },
+    {
+      "id": "P19",
+      "title": "UV 램프 작동",
+      "category": "core",
+      "mode": "combine",
+      "location": {
+        "sceneId": "ANY",
+        "viewId": "ANY",
+        "hotspotId": "inventory"
+      },
+      "requiresCompleted": [
+        "P16",
+        "P18"
+      ],
+      "requiresItems": [
+        "uv_lamp",
+        "battery_pack"
+      ],
+      "clue": "램프 배터리함은 AA 두 개 규격이다.",
+      "expectedAnswer": [
+        "uv_lamp",
+        "battery_pack"
+      ],
+      "effects": {
+        "consumeItems": [
+          "uv_lamp",
+          "battery_pack"
+        ],
+        "grantItems": [
+          "uv_lamp_ready"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "램프와 전지의 규격을 보자.",
+        "램프에는 전지만 빠져 있다.",
+        "UV 램프와 배터리 팩을 조합한다."
+      ],
+      "failText": "이 조합으로는 램프를 켤 수 없다.",
+      "repeatText": "UV 램프가 작동한다."
+    },
+    {
+      "id": "P20",
+      "title": "배수 표찰 읽기",
+      "category": "action",
+      "mode": "inspect",
+      "location": {
+        "sceneId": "R03",
+        "viewId": "B",
+        "hotspotId": "valve_label"
+      },
+      "requiresCompleted": [
+        "P17"
+      ],
+      "requiresItems": [],
+      "clue": "바다 유입 닫기, 저수 연결 닫기, 배출 열기, 마지막에 구동.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [
+          "drain_procedure"
+        ],
+        "setFlags": {}
+      },
+      "hints": [
+        "밸브 옆 작업 표찰을 보자.",
+        "어떤 연결을 닫아야 하는지 적혀 있다.",
+        "작업 표찰을 읽어 수첩에 기록한다."
+      ],
+      "failText": "표찰을 먼저 확인하자.",
+      "repeatText": "배수 절차는 수첩에 있다."
+    },
+    {
+      "id": "P21",
+      "title": "집수정 배수",
+      "category": "core",
+      "mode": "valves",
+      "location": {
+        "sceneId": "R03",
+        "viewId": "B",
+        "hotspotId": "drain_valves"
+      },
+      "requiresCompleted": [
+        "P16",
+        "P20"
+      ],
+      "requiresItems": [
+        "valve_handle"
+      ],
+      "clue": "표찰의 배수 조합을 맞춘 뒤 구동한다. 최초는 바다 열림, 저수 열림, 배출 닫힘.",
+      "expectedAnswer": {
+        "sea": "closed",
+        "tank": "closed",
+        "outlet": "open"
+      },
+      "effects": {
+        "consumeItems": [
+          "valve_handle"
+        ],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "drained": true
+        }
+      },
+      "hints": [
+        "점검함의 손잡이와 배수 표찰을 보자.",
+        "유입 둘을 차단하고 배출만 연결한다.",
+        "손잡이를 사용한 뒤 바다 닫힘, 저수 닫힘, 배출 열림으로 구동한다."
+      ],
+      "failText": "배관이 떨린다. 연결 표찰을 다시 확인하자.",
+      "repeatText": "물이 빠져 낮은 통로가 열렸다."
+    },
+    {
+      "id": "P22",
+      "title": "황동 명판 회수",
+      "category": "action",
+      "mode": "inspect",
+      "location": {
+        "sceneId": "R03",
+        "viewId": "B",
+        "hotspotId": "sump_plate"
+      },
+      "requiresCompleted": [
+        "P21"
+      ],
+      "requiresItems": [],
+      "clue": "빈 집수정에 명판이 있다. 파도, 등대, 배, 별 순서가 새겨져 있다.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [
+          "exit_plate"
+        ],
+        "grantEvidence": [],
+        "setFlags": {}
+      },
+      "hints": [
+        "물이 빠진 집수정 바닥을 보자.",
+        "바닥의 금속 명판을 챙길 수 있다.",
+        "집수정 바닥을 조사해 황동 명판을 챙긴다."
+      ],
+      "failText": "물이 차 있어 바닥에 손이 닿지 않는다.",
+      "repeatText": "황동 명판을 이미 챙겼다."
+    },
+    {
+      "id": "P23",
+      "title": "명판 숨은 숫자 발견",
+      "category": "core",
+      "mode": "use",
+      "location": {
+        "sceneId": "ANY",
+        "viewId": "ANY",
+        "hotspotId": "plate_detail"
+      },
+      "requiresCompleted": [
+        "P19",
+        "P22"
+      ],
+      "requiresItems": [
+        "uv_lamp_ready",
+        "exit_plate"
+      ],
+      "clue": "명판 기호 순서는 파도, 등대, 배, 별. UV로 각 기호 옆에 2,6,4,1이 나타난다.",
+      "expectedAnswer": {
+        "itemId": "uv_lamp_ready",
+        "targetId": "exit_plate"
+      },
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [
+          "exit_cipher"
+        ],
+        "setFlags": {}
+      },
+      "hints": [
+        "명판의 빛에 관한 문구를 보자.",
+        "맨눈으로 보이지 않는 흔적에는 UV가 도움이 된다.",
+        "작동 UV 램프를 황동 명판에 사용한다."
+      ],
+      "failText": "다른 빛이 필요한 듯하다.",
+      "repeatText": "숨은 숫자는 수첩 증거에서 다시 볼 수 있다."
+    },
+    {
+      "id": "P24",
+      "title": "외부 게이트 잠금 해제",
+      "category": "core",
+      "mode": "code",
+      "location": {
+        "sceneId": "R04",
+        "viewId": "A",
+        "hotspotId": "exit_keypad"
+      },
+      "requiresCompleted": [
+        "P21",
+        "P23"
+      ],
+      "requiresItems": [],
+      "clue": "명판의 파도, 등대, 배, 별 순서에 맞춘 숫자는 2,6,4,1이다.",
+      "expectedAnswer": "2641",
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "exit_open": true
+        }
+      },
+      "hints": [
+        "적재장 키패드와 명판 기록을 보자.",
+        "그림 순서를 따라 숨은 숫자를 이어 읽는다.",
+        "게이트에 2641을 입력한다."
+      ],
+      "failText": "잠금이 풀리지 않는다.",
+      "repeatText": "게이트 잠금은 이미 해제됐다."
+    },
+    {
+      "id": "P25",
+      "title": "창고 밖으로 나가기",
+      "category": "action",
+      "mode": "move",
+      "location": {
+        "sceneId": "R04",
+        "viewId": "A",
+        "hotspotId": "exit_gate"
+      },
+      "requiresCompleted": [
+        "P24"
+      ],
+      "requiresItems": [],
+      "clue": "게이트가 열렸다. 밖으로 나간다를 선택한다.",
+      "expectedAnswer": true,
+      "effects": {
+        "consumeItems": [],
+        "grantItems": [],
+        "grantEvidence": [],
+        "setFlags": {
+          "chapter_complete": true
+        }
+      },
+      "hints": [
+        "열린 게이트를 보자.",
+        "이제 바깥으로 나갈 수 있다.",
+        "게이트를 누르고 밖으로 나간다를 선택한다."
+      ],
+      "failText": "게이트 잠금이 아직 남아 있다.",
+      "repeatText": "1챕터를 완료했다."
+    }
+  ]
+}

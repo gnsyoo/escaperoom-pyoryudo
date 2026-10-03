@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "generated": [
+    {
+      "id": "CH01_R01_A",
+      "path": "backgrounds/ch01/ch01_r01_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-3b98a5b8-77c8-4a62-88c0-ebed2da77ddd.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_B",
+      "path": "backgrounds/ch01/ch01_r01_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-1438b303-d957-41ed-a2e0-37b0e99c0547.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_C",
+      "path": "backgrounds/ch01/ch01_r01_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-10a7450a-d3f6-4818-b235-e7f5a591a078.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R02_A",
+      "path": "backgrounds/ch01/ch01_r02_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-49f99948-fb0d-4d33-86d7-cabaae31921f.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R02_B",
+      "path": "backgrounds/ch01/ch01_r02_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-ae60d0a7-ee65-4917-9195-cee633815e7e.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R02_C",
+      "path": "backgrounds/ch01/ch01_r02_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-aee806de-d582-440e-9075-bfcf993ee8d0.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R01_D",
+      "path": "backgrounds/ch01/ch01_r01_d_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-95c2cd34-eb6c-4915-995b-a9b56e5c2b70.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_B",
+      "path": "backgrounds/ch01/ch01_r03_b_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-3d1be656-07d7-4391-8f98-8642cc112f16.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R04_A",
+      "path": "backgrounds/ch01/ch01_r04_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-5089c17a-bbf6-457f-91c3-5070a8ebec69.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_C",
+      "path": "backgrounds/ch01/ch01_r03_c_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-892607bf-ee82-4ee7-83d3-e5aaaf042b6b.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "CH01_R03_A",
+      "path": "backgrounds/ch01/ch01_r03_a_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-01ef09c0-5bbd-46fe-a759-4df52ee7c046.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "metal_shard",
+      "path": "items/ch01/metal_shard_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-db1c9760-f049-4eae-9a7f-e8ba59c3e6e6.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "screwdriver",
+      "path": "items/ch01/screwdriver_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-19e42b75-784f-47a3-9e1a-1972748b9c20.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "magnet",
+      "path": "items/ch01/magnet_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-a6d0bebb-5cb1-4303-a4e1-b2e038b6deac.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    },
+    {
+      "id": "rope",
+      "path": "items/ch01/rope_v01.png",
+      "source": "C:\\Users\\gnsyo\\.codex\\generated_images\\01a100b4-82ff-7b90-90b3-816221f9a27d\\exec-8e319f28-3f34-4674-9d78-e9408367082e.png",
+      "status": "generated",
+      "inspection": "visual-pass",
+      "toolMode": "built-in image_gen"
+    }
+  ]
+}

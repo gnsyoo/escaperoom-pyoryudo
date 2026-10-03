@@ -1,0 +1,20 @@
+.review-workspace{display:grid;grid-template-columns:240px 1fr;width:100vw;min-height:100dvh;background:#e5e9de;color:#334a3e}
+.review-sidebar{padding:30px 22px;background:#dce3d1;border-right:1px solid #c0ceb5}
+.review-sidebar>small:first-child{font-size:10px;letter-spacing:.1em;color:#6c815d}
+.review-sidebar h1{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;font-size:28px;margin:13px 0}
+.review-sidebar p{font-size:12px;line-height:1.8;color:#718469;margin-bottom:22px}
+.review-sidebar nav{display:grid;gap:5px}
+.review-sidebar nav a{padding:9px 10px;font-size:12px;text-decoration:none;border-radius:7px;line-height:1.6}
+.review-sidebar nav a[aria-current=page]{background:#56744c;color:#f0f0df}
+.review-sidebar nav a:hover{background:#c7d4bd}
+.play-link{display:block;margin:22px 0;font-size:13px;font-weight:700}
+.review-warning{display:block;font-size:10px;line-height:1.9;color:#8b927d}
+.review-main{display:flex;align-items:center;justify-content:center;gap:45px;padding:28px}
+.review-caption{max-width:210px}
+.review-caption small{font-size:9px;letter-spacing:.13em;color:#829075}
+.review-caption h2{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;font-size:27px;margin:15px 0}
+.review-caption p{font-size:13px;color:#7e8c70;line-height:1.8}
+.review-main .game-shell{height:min(844px,calc(100dvh - 56px));width:390px;border-radius:20px}
+.review-focus .game-shell{width:100vw;height:100dvh;border-radius:0;border:0;max-height:none;max-width:none}
+@media(max-width:1100px){.review-caption{display:none}.review-main{padding:16px}}
+@media(max-width:700px){.review-workspace{display:block}.review-sidebar{padding:18px}.review-sidebar nav{display:flex;overflow:auto}.review-sidebar nav a{white-space:nowrap}.review-sidebar p,.review-warning{display:none}.review-main{padding:16px}.review-main .game-shell{width:min(390px,100vw - 32px);height:844px}}

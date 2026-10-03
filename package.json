@@ -1,0 +1,32 @@
+{
+  "name": "pyoryudo",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node scripts/package-art.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/unit/*.test.ts",
+    "optimize:art": "node scripts/optimize-art.mjs",
+    "check:content": "node scripts/check-content.mjs",
+    "check:art": "node scripts/build-art-pack.mjs --verify-complete",
+    "gallery": "node scripts/serve-art.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "playwright": "1.62.1",
+    "pretendard": "1.3.9",
+    "sharp": "0.35.5",
+    "typescript": "7.0.2",
+    "vite": "8.3.2"
+  }
+}

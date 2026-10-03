@@ -1,0 +1,227 @@
+{
+  "version": "v02",
+  "font": "Pretendard Variable 1.3.9",
+  "viewport": {
+    "width": 360,
+    "height": 780
+  },
+  "deviceScaleFactor": 3,
+  "render": "Actual React UI in Chrome",
+  "screens": [
+    {
+      "id": "title",
+      "label": "타이틀",
+      "description": "햇빛과 바다, 섬의 첫인상",
+      "file": "01_title_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "home",
+      "label": "게임 홈",
+      "description": "이어하기 · 기록 · 챕터 목록",
+      "file": "02_home_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "explore",
+      "label": "탐색",
+      "description": "원본 배경 · 조사 지점 · 시점 전환",
+      "file": "03_explore_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "broadcast",
+      "label": "스피커 방송",
+      "description": "배경 위에 읽기 쉬운 대화 패널",
+      "file": "04_broadcast_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "inventory",
+      "label": "인벤토리",
+      "description": "투명 아이템 · 상세 설명 · 사용과 조합",
+      "file": "05_inventory_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "combine",
+      "label": "아이템 조합",
+      "description": "두 재료 선택과 확인",
+      "file": "06_combine_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "puzzle-code",
+      "label": "확대 퍼즐 · 잠금함",
+      "description": "장치 그림과 실제 숫자 입력",
+      "file": "07_puzzle-code_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "puzzle-circuit",
+      "label": "확대 퍼즐 · 회로도",
+      "description": "조각 위치를 바꿔 이어 붙이기",
+      "file": "08_puzzle-circuit_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "puzzle-breaker",
+      "label": "확대 퍼즐 · 배전함",
+      "description": "F1/F2 선택과 전원 복구",
+      "file": "09_puzzle-breaker_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "puzzle-calendar",
+      "label": "확대 퍼즐 · 달력",
+      "description": "읽을 수 있는 달력과 근무표",
+      "file": "10_puzzle-calendar_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "puzzle-valves",
+      "label": "확대 퍼즐 · 밸브",
+      "description": "열림/닫힘이 보이는 장치 조작",
+      "file": "11_puzzle-valves_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "puzzle-uv",
+      "label": "확대 퍼즐 · UV 명판",
+      "description": "문양 순서와 빛으로 나타난 숫자",
+      "file": "12_puzzle-uv_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "notebook",
+      "label": "수첩",
+      "description": "관찰한 단서와 확보한 증거 목록",
+      "file": "13_notebook_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "notebook-detail",
+      "label": "수첩 · 증거 상세",
+      "description": "배수 작업 절차를 다시 읽기",
+      "file": "14_notebook-detail_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "transcript",
+      "label": "수첩 · 대화 기록",
+      "description": "대사와 방송을 구분한 기록",
+      "file": "15_transcript_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "map",
+      "label": "지도",
+      "description": "현재 위치 · 열린 방 · 잠긴 구역",
+      "file": "16_map_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "settings",
+      "label": "설정",
+      "description": "소리 · 밝기 · 글자 · 움직임",
+      "file": "17_settings_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "hint",
+      "label": "단계별 힌트",
+      "description": "방향부터 정답까지 세 단계",
+      "file": "18_hint_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "complete",
+      "label": "챕터 완료",
+      "description": "첫 문을 연 뒤의 완료 화면",
+      "file": "19_complete_1080x2340_v02.png",
+      "width": 1080,
+      "height": 2340
+    },
+    {
+      "id": "title-refresh",
+      "label": "타이틀 · 이전 구도 수정",
+      "description": "앞서 제공한 이미지에 프리텐다드 적용",
+      "file": "20_title_390x844_pretendard_v02.png",
+      "width": 390,
+      "height": 844,
+      "extra": true
+    },
+    {
+      "id": "explore-chair-refresh",
+      "label": "의자 앞 탐색 · 이전 구도 수정",
+      "description": "앞서 제공한 이미지에 프리텐다드 적용",
+      "file": "21_explore-chair_390x844_pretendard_v02.png",
+      "width": 390,
+      "height": 844,
+      "extra": true
+    },
+    {
+      "id": "home-full",
+      "label": "게임 홈 · 전체",
+      "description": "스크롤 내용을 모두 펼친 긴 화면",
+      "file": "22_home_full_v02.png",
+      "width": 1080,
+      "height": 3003,
+      "extra": true
+    },
+    {
+      "id": "inventory-full",
+      "label": "인벤토리 · 전체",
+      "description": "스크롤 내용을 모두 펼친 긴 화면",
+      "file": "23_inventory_full_v02.png",
+      "width": 1080,
+      "height": 2520,
+      "extra": true
+    },
+    {
+      "id": "puzzle-circuit-full",
+      "label": "회로도 퍼즐 · 전체",
+      "description": "스크롤 내용을 모두 펼친 긴 화면",
+      "file": "24_puzzle-circuit_full_v02.png",
+      "width": 1080,
+      "height": 2448,
+      "extra": true
+    },
+    {
+      "id": "notebook-full",
+      "label": "수첩 · 전체",
+      "description": "스크롤 내용을 모두 펼친 긴 화면",
+      "file": "25_notebook_full_v02.png",
+      "width": 1080,
+      "height": 2553,
+      "extra": true
+    },
+    {
+      "id": "settings-full",
+      "label": "설정 · 전체",
+      "description": "스크롤 내용을 모두 펼친 긴 화면",
+      "file": "26_settings_full_v02.png",
+      "width": 1080,
+      "height": 2796,
+      "extra": true
+    }
+  ]
+}
